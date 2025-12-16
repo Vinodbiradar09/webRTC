@@ -52,6 +52,7 @@ const Sender = () => {
         })
       );
     };
+    // const screenShare = await navigator.mediaDevices.getDisplayMedia({video : true, audio : true}); this is for the sharing the screen 
     const stream = await navigator.mediaDevices.getUserMedia({
       video: true,
       audio: true,
